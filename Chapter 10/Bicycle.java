@@ -9,9 +9,9 @@ public class Bicycle extends Vehicle{
         String entry;
         final int MAX = 4000;
         entry = JOptionPane.showInputDialog(null, "Enter bicycle price ");
-        price = Integer.parseInt(entry);
-        if (price > MAX) {
-            price = MAX;
+        super.price = Integer.parseInt(entry);
+        if (super.price > MAX) {
+            super.price = MAX;
         }
     }
 

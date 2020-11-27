@@ -5,7 +5,7 @@ public class DemoVehicle {
         
         SailBoat aBoat = new SailBoat();
         Bicycle aBike = new Bicycle();
-
+        
         JOptionPane.showMessageDialog(null, "\nVehicle descriptions:\n" + aBoat.toString() + "\n" + aBike.toString());
         
     }

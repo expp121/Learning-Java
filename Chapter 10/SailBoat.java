@@ -23,9 +23,9 @@ public class SailBoat extends Vehicle {
         String entry;
         final int MAX = 100000;
         entry = JOptionPane.showInputDialog(null, "Enter sailboat price ");
-        price = Integer.parseInt(entry);
-        if(price > MAX){
-            price = MAX;
+        super.price = Integer.parseInt(entry);
+        if(super.price > MAX){
+            super.price = MAX;
         }
     }
 
