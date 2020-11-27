@@ -8,6 +8,5 @@ public class DemoVehicle {
 
         JOptionPane.showMessageDialog(null, "\nVehicle descriptions:\n" + aBoat.toString() + "\n" + aBike.toString());
         
-
     }
 }
