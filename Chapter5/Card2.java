@@ -1,4 +1,3 @@
-
 /**
  * Card
  */
@@ -17,24 +16,24 @@ public class Card2 {
     public void setCardType(char cardType) {
 
         switch (cardType) {
-            case 's':
-                this.cardType = Suit.Cards.SPADES.toString();
-                break;
+        case 's':
+            this.cardType = Suit.Cards.SPADES.toString();
+            break;
 
-            case 'h':
-                this.cardType = Suit.Cards.HEARTS.toString();
-                break;
+        case 'h':
+            this.cardType = Suit.Cards.HEARTS.toString();
+            break;
 
-            case 'd':
-                this.cardType = Suit.Cards.DIAMONDS.toString();
-                break;
+        case 'd':
+            this.cardType = Suit.Cards.DIAMONDS.toString();
+            break;
 
-            case 'c':
-                this.cardType = Suit.Cards.CLUBS.toString();
-                break;
+        case 'c':
+            this.cardType = Suit.Cards.CLUBS.toString();
+            break;
 
-            default:
-                break;
+        default:
+            break;
         }
     }
 

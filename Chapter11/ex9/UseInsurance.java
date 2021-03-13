@@ -1,5 +1,7 @@
 package ex9;
-
+import ex9.Health;
+import ex9.Insurance;
+import ex9.Life;
 public class UseInsurance {
     public static void main(String[] args) {
         Insurance[] insurances = new Insurance[2];

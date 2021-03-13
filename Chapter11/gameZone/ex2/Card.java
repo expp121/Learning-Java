@@ -1,3 +1,5 @@
+package cardGames;
+
 /**
  * Card
  */
@@ -57,8 +59,7 @@ public class Card {
             if (cardValue == 13)
                 this.cardRank = "King";
 
-        } else
-            this.cardValue = 1;
+        }
     }
 
     public String getCardType() {
