@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.
+
 
 class RetirementGoal2 {
   

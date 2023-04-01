@@ -1,4 +1,4 @@
-package Chapter5;
+package Chapter11.caseProblems.ex2;
 /**
  * RentalDemo
  */

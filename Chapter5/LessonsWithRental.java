@@ -1,3 +1,5 @@
+package Chapter5;
+
 public class LessonsWithRental extends Rental {
     private final static String[] instructors = {"Doshev", "Odew", "Marinov", "Noqe", "Ollq", "Ajk", "Uom", "Maop"};  
     private boolean isLessonRequired;

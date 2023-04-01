@@ -7,7 +7,7 @@ class Compile{
 
   public static void main(String Args[])
   {
-      String[] paths = new String[];
+      String[] paths = new String[5];
        
       try {
         paths = search(Args[0]);

@@ -1,3 +1,5 @@
+package Chapter5;
+
 public class DinnerEvent extends Event{
     private final String[] entrees = {"crockets", "patatoes filled with bacon and cheese", "crab meat rools", "snails with pasta"};
     private final String[] sideDishesh = {"mushrooms", "sturgeon", "bean soup", "fried eggs with bacon", "ramen", "baked rice"};
